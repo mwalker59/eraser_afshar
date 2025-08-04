@@ -10,3 +10,6 @@ This is a simulation where light of a certain polarization is sent through two s
 in front of them.  There are beam block, a lens, and detectors.  This has three files: the main Python sim,
 an object to handle calculations for interference and ray tracing, and a JSON file to configure params of the
 optical setup, what light is sent in, etc.
+
+To run, use python to execute sim2.py and give it a name from the config file (like "first").  Then install
+the packages that it needs and try again :)
