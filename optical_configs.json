@@ -1,0 +1,85 @@
+{
+    "first": {
+        "x_source": 3.0,
+        "y_delta_source": 0.8,
+        "angle_scale": 6.0,
+        "qwp_upper": 0,
+        "qwp_lower": 90,
+        "wavelength": 0.04,
+        "x_lens": 18.0,
+        "r_lens": 5.0,
+        "n_lens": 1.3,
+        "field_width": 100.0,
+        "field_height": 50.0,
+        "graph_width": 2400,
+        "graph_height": 1200,
+        "offset_x": 0,
+        "offset_y": 0,
+        "zoom_x": 1,
+        "zoom_y": 1,
+        "low_angle": -20.0,
+        "high_angle": 20.0,
+        "angle_step": 0.5,
+        "lower": 1,
+        "upper": 1,
+        "polarization_rotation": 45.0,
+
+        "sensors": [
+            {
+                "x": 92.0,
+                "y": 2.5,
+                "width": 0.5,
+                "name": "upper sensor",
+                "pol_axis": [1, 0]
+            },
+            {
+                "x": 92.0,
+                "y": -2.5,
+                "width": 0.5,
+                "name": "lower sensor",
+                "pol_axis": [0, 1]
+            },
+            {
+                "x": 17.5,
+                "y": -2.7,
+                "width": 0.3,
+                "name": "block"
+            },
+            {
+                "x": 17.49,
+                "y": -1.2,
+                "width": 0.3,
+                "name": "block"
+            },
+            {
+                "x": 17.48,
+                "y": 0.3,
+                "width": 0.3,
+                "name": "block"
+            },
+            {
+                "x": 17.47,
+                "y": 1.8,
+                "width": 0.3,
+                "name": "block"
+            },
+            {
+                "x": 17.46,
+                "y": 3.3,
+                "width": 0.3,
+                "name": "block"
+            }
+        ],
+
+        "polarizations": [
+            {
+                "pol": "H",
+                "color_vec": [1.0, 0.0, 0.0]
+            },
+            {
+                "pol": "V",
+                "color_vec": [0.0, 0.0, 1.0]
+            }
+        ]
+    }
+}
